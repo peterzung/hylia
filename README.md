@@ -1,135 +1,207 @@
-# hugo Resume
+# A simple starter kit for Eleventy
 
-Created from [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/).
+Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
-This is basically a single-page website with auto-scrolling based on left-hand nav.  Dedicated project/publications pages allow more detail.  Includes a client-side search powered by fuse.js at '/search' but currently theme does not link to that anywhere.
+Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
 
-- [hugo Resume](#hugo-resume)
-	- [Examples](#examples)
-	- [Setup & Use](#setup-use)
-		- [Summary](#summary)
-		- [Data files](#data-files)
-		- [Projects](#projects)
-		- [Publications](#publications)
-		- [Template params](#template-params)
-	- [Credits](#credits)
-		- [Start Bootstrap Resume](#start-bootstrap-resume)
+<img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
 
-<!-- /TOC -->
+## Features
 
-## Examples
+Hylia version 0.4.3 features:
 
-![About You](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/about.png)
+✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
+🎨 Customisable design tokens to make it your own  
+🌍 Customisable global data and navigation  
+📂 Tags and tag archives  
+✅ Progressively enhanced, semantic and accessible  
+🎈 _Super_ lightweight front-end  
+🚰 Sass powered CSS system with utility class generator  
+⚙️ Service worker that caches pages so people can read your articles offline  
+🚀 An RSS feed for your posts
 
-![With optional Contact QR Code](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/qrcode.png)
+## Roadmap
 
-![Highlight skills with dev icons](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/skills.png)
+💬 [Netlify Forms](https://www.netlify.com/docs/form-handling/) powered comments  
+💡 ~~Dark/Light mode toggle~~ [Added in 0.4.0](https://github.com/andybelldesign/hylia/releases/tag/0.4.0)  
+🗣 Webmentions  
+📖 Pagination  
+🐦 Web sharing API integration  
+🗒 Offline mode with links to cached pages  
+📄 Documentation site  
+💅 Proper Sass documentation  
+✍️ Proper CMS documentation  
+🖼 A facility for you to be able to add your logo / branding
 
-![List featured projects](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/projects.png)
+---
 
-![Searchable content](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/search.png)
+## Getting started
 
-See [Eddie's site](https://edwardawebb.com) for a live example.
+### Method one: One-Click Deploy to Netlify
 
-## Setup & Use
+You can [deploy Hylia to Netlify with one click][deploy-to-netlify] and you’ll be up and running in minutes!
 
-This theme uses a combination of a custom archetype `projects` and some data files to drive content.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
 
-You can test the provided [exampleSite](exampleSite) after cloning with the command:
-`cd exampleSite;hugo -t hugo-resume --themesDir ../.. server`
+I recorded a quick start video of me deploying Hylia to Netlify and getting the CMS set up. [Check it out here](https://youtu.be/0hM_0BH-Y_A).
 
-### Summary
-Edit the main `contents/_index.md with a brief bio/summary`
+### Method two: Clone / Fork
 
-### Data files
-Data files are used for simple content presented on the homepage.
+1. Clone or fork this repo: `git clone https://github.com/andybelldesign/hylia`
+2. `cd` into the project directory and run `npm install`
+3. Once all the dependencies are installed run `npm start`
+4. Open your browser at `http://localhost:8080` and away you go!
 
-- [data/skills.json](https://github.com/eddiewebb/hugo-resume/blob/master/exampleSite/data/skills.json)
-- [data/experience.json](https://github.com/eddiewebb/hugo-resume/blob/master/exampleSite/data/experience.json)
-- [data/education.json](https://github.com/eddiewebb/hugo-resume/blob/master/exampleSite/data/education.json)
+## Terminal commands
 
-### Projects
-Initially projects were in their own JSON file too, but I decided I wanted to allow more detail and custom formatting.
-Projects are added to one of 2 subfolders of `creations` or `contributions`. The difference indicates your role as originator or colaborator.   Use `hugo add projects/TYPE/name-of-project.md` to leverage the proper archetype.
+### Serve the site locally
 
-### Publications
-Similar to projects, create them under `publications`. Include any papers, speaking engagements, articles, etc.
-
-### Template params
-
-All personal information outside the above details is captured by params in [`config.toml`](https://github.com/eddiewebb/hugo-resume/blob/master/exampleSite/config.toml)
-
-```
-[params]
-    firstName = "Eddie"
-    lastName = "Webb"
-    address = "Rollinsford, NH"
-    phone = "1-555-555-1234"
-    contactNote = "Dev Tools Engineer" #used in QR code only
-    profileImage = "img/me.png"
-    email = "email@domain.com"
-    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
-    favicon = "images/favicon.ico"
-
-    # what sections to display.  Setting to false disables navigation and section.
-    showSkills = true
-    showProjects = true
-    showOpenSource = true
-    showPublications = true
-    showExperience = true
-    showEducation = true
-    showQr = true
-
-    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
-    gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
-
-
-[[params.handles]]
-    name = "LinkedIn"
-    link = "https://www.linkedin.com/in/edwardwebb/"
-
-[[params.handles]]
-    name = "GitHub"
-    link = "https://github.com/eddiewebb/"
-
-[[params.handles]]
-    name = "Bitbucket"
-    link = "https://bitbucket.org/eddiewebb/"
-
-[[params.handles]]
-    name = "Stack Overflow"
-    link = "https://stackoverflow.com/users/story/82880"
-    icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
-
-[[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/edwardawebb"
-    icon = "key" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
-
-[params.google.analytics]
-    trackerID = "XX-123446-01"
-
-[outputs] #only required for search
-    home = ["HTML", "JSON"]
+```bash
+npm start
 ```
 
-## Credits
+### Build a production version of the site
 
-This project ports the Start Bootstrap Resume theme by David Miller to support hugo.
+```bash
+npm run production
+```
 
-### Start Bootstrap Resume
+### Compile Sass
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+```bash
+npm run sass:process
+```
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+### Re-generate design tokens for Sass
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+```bash
+npm run sass:tokens
+```
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Getting started with the CMS
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Before you can use the CMS, you need to do some config in Netlify. Luckily they provide a [very handy guide to get started](https://www.netlify.com/docs/identity/).
+
+In short, though:
+
+- Once you’ve set up the site on Netlify, go to “Settings” > “Identity” and enable Identity
+- Scroll down to the “Git Gateway” area, click “Enable Git Gateway” and follow the steps
+- Click the “Identity” tab at the top
+- Once you’ve enabled identity, click “Invite Users”
+- Check the invite link in your inbox and click the link in the email that’s sent to you
+- Set a password in the popup box
+- Go to `/admin` on your site and login
+- You’re in and ready to edit your content!
+
+## Design Tokens and Styleguide
+
+### Design Tokens
+
+Although Hylia has a pretty simple design, you can configure the core design tokens that control the colours, size ratio and fonts.
+
+---
+
+**Note**: _Credit must be given to the hard work [Jina Anne](https://twitter.com/jina) did in order for the concept of design tokens to even exist. You should watch [this video](https://www.youtube.com/watch?v=wDBEc3dJJV8), then [read this article](https://the-pastry-box-project.net/jina-bolton/2015-march-28) and then sign up for [this course](https://aycl.uie.com/virtual_seminars/design_tokens_scaling_design_with_a_single_source_of_truth) to expand your knowledge._
+
+---
+
+To change the design tokens in the CMS, find the “Globals” in the sidebar then in the presented options, select “Theme Settings”.
+
+To change the design tokens directly, edit [`_src/data/tokens.json`](https://github.com/andybelldesign/hylia/blob/master/src/_data/tokens.json).
+
+The tokens are converted into maps that the Sass uses to compile the front-end CSS, so make sure that you maintain the correct structure of `tokens.json`.
+
+### Styleguide
+
+Your version of Hylia ships with a Styleguide by default. You can see a demo of the Styleguide at <https://hylia.website/styleguide/>.
+
+You can edit the Styleguide by opening [`src/styleguide.njk`](https://github.com/andybelldesign/hylia/blob/master/src/styleguide.njk). If you don’t want the Styleguide, delete that file and the page will vanish.
+
+## Sass
+
+Hylia is based on the [WIP v2 version of Stalfos](https://github.com/andybelldesign/stalfos/tree/feature/v2), which currently has no documentation (I know, I’m bad). Here is some very basic documentation for elements of the new framework that you will encounter on this project.
+
+### Configuration
+
+The whole Sass system is powered by central config file, which lives here: [`_src/scss/_config.scss`](https://github.com/andybelldesign/hylia/blob/master/src/scss/_config.scss).
+
+Before Sass is compiled, a `_tokens.scss` file is generated from the [design tokens config](https://github.com/andybelldesign/hylia/blob/master/src/_data/tokens.json) which is required.
+
+Key elements:
+
+- `$stalfos-size-scale`: A token driven size scale which by default, is a “Major Third” scale
+- `$stalfos-colors`: A token driven map of colours
+- `$stalfos-util-prefix`: All pre-built, framework utilities will have this prefix. Example: the wrapper utility is '.sf-wrapper' because the default prefix is 'sf-'
+- `$metrics`: Various misc metrics to use around the site
+- `$stalfos-config`: This powers everything from utility class generation to breakpoints to enabling/disabling pre-built components/utilities
+
+### How to create a new utility class with the generator
+
+The utility class generator lets you generate whatever you want, with no opinions on class name or properties affected.
+
+To add a new class, add another item to the exists `$stalfos-config` map. This example adds a utility for floating elements.
+
+```scss
+'float':('items':('left':'left','right': 'right'
+  ),
+  'output': 'responsive',
+  'property': 'float'
+);
+```
+
+The `output` is set to `responsive` which means every breakpoint will generate a prefixed class for itself. If you only wanted elements to float left in the `md` breakpoint, you’d now be able to add a class of `md:float-left` to your HTML elements.
+
+If you only want standard utility classes generating, set the `output` to `standard`.
+
+### Functions
+
+#### `get-color($key)`
+
+Function tries to match the passed `$key` with the `$stalfos-colors` map. Returns null if it can’t find a match.
+
+#### `get-config-value($key, $group)`
+
+Returns back a 1 dimensional (key value pair) config value if available.
+
+#### `get-size($ratio-key)`
+
+Function tries to match the passed `$ratio-key` with the `$stalfos-size-scale`. Returns null if it can’t find a match.
+
+### Mixins
+
+#### `apply-utility($key, $value-key)`
+
+Grabs the property and value of one of the `$stalfos-config utilities` that the generator will generate a class for.
+
+#### `media-query($key)`
+
+Pass in the key of one of your breakpoints set in `$stalfos-config['breakpoints']` and this mixin will generate the `@media` query with your configured value.
+
+## CMS
+
+Hylia has [Netlify CMS](https://www.netlifycms.org/) pre-configured as standard. You can customise the configuration by editing [`src/admin/config.yml`](https://github.com/andybelldesign/hylia/blob/master/src/admin/config.yml).
+
+### Content that you can edit
+
+The basic CMS setup allows you to edit the following:
+
+- **Home page**: Edit the content on your homepage
+- **Posts**: Create and edit blog posts
+- **Generic pages**: Create generic pages that use a similar layout to posts
+- **Global site data**: Various bits of global site data such as your url, title, posts per page and author details
+- **Navigation**: Edit your primary navigation items
+- **Theme**: Edit the design tokens that power the site’s theme
+
+## Get involved
+
+This project is _super_ early and feedback is very much welcome. In order to keep things running smooth, please consult the [contribution guide and code of conduct](https://github.com/andybelldesign/hylia/blob/master/contributing.md).
+
+The stuff that I need the most help with is:
+
+- Documentation
+- [Webmentions](https://www.w3.org/TR/webmention/)
+- Performance
+
+[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/andybelldesign/hylia&stack=cms
