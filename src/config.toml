@@ -1,0 +1,36 @@
+baseURL = "https://www.etatool.com/"
+languageCode = "en-us"
+title = "Peter Zung"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Peter"
+    lastName = "Zung"
+    address = "Surrey, BC"
+    phone = "(780) 563-1678"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/profile.png"
+    email = "peter@zung.io"
+    description = "Team Lead of the ETA Tool and recent college grad."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+    showQr = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/petezung/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/peterzung/"
+
+[params.google.analytics]
+    trackerID = "XX-123446-01"
