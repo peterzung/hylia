@@ -1,7 +1,7 @@
 baseURL = "https://www.etatool.com/"
 languageCode = "en-us"
 title = "Peter Zung"
-theme = ""
+theme = "hugo-resume"
 
 [params]
     firstName = "Peter"
