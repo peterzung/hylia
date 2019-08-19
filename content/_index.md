@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-<p>B.Sc. computing science with a practicum stream at the University of Alberta. Entered the 2018 Calgary Hackathon for improving pedestrian safety and won a contract from the city. Currently working on said contract by creating a city-planning web-app, the ETA Tool.</p>
+<p>Proven Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud.</p>
