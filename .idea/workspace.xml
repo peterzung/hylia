@@ -50,8 +50,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/projects.json">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="75">
               <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+=======
+            <state relative-caret-position="60">
+              <caret line="4" column="583" selection-start-line="4" selection-start-column="583" selection-end-line="4" selection-end-column="583" />
+>>>>>>> parent of 67ee095... Attempt to link
             </state>
           </provider>
         </entry>
@@ -288,12 +293,20 @@
       <option name="presentableId" value="Default" />
       <updated>1564618648506</updated>
       <workItem from="1564618651573" duration="268000" />
+<<<<<<< HEAD
       <workItem from="1566261992526" duration="2740000" />
+=======
+      <workItem from="1566261992526" duration="2000000" />
+>>>>>>> parent of 67ee095... Attempt to link
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3008000" />
+=======
+    <option name="totallyTimeSpent" value="2268000" />
+>>>>>>> parent of 67ee095... Attempt to link
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="6" />
@@ -400,8 +413,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/experience.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+=======
+        <state relative-caret-position="60">
+          <caret line="4" column="583" selection-start-line="4" selection-start-column="583" selection-end-line="4" selection-end-column="583" />
+>>>>>>> parent of 67ee095... Attempt to link
         </state>
       </provider>
     </entry>
