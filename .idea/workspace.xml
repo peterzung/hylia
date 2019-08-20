@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6fe1aca-a207-4de0-9c03-4d66c6397feb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/experience.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="245" selection-start-line="10" selection-start-column="245" selection-end-line="10" selection-end-column="245" />
+            <state relative-caret-position="60">
+              <caret line="4" column="612" lean-forward="true" selection-start-line="4" selection-start-column="612" selection-end-line="4" selection-end-column="612" />
             </state>
           </provider>
         </entry>
@@ -284,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564618648506</updated>
       <workItem from="1564618651573" duration="268000" />
-      <workItem from="1566261992526" duration="1615000" />
+      <workItem from="1566261992526" duration="1899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1883000" />
+    <option name="totallyTimeSpent" value="2167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="6" />
@@ -388,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="245" selection-start-line="10" selection-start-column="245" selection-end-line="10" selection-end-column="245" />
+        <state relative-caret-position="60">
+          <caret line="4" column="612" lean-forward="true" selection-start-line="4" selection-start-column="612" selection-end-line="4" selection-end-column="612" />
         </state>
       </provider>
     </entry>
