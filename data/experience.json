@@ -1,14 +1,20 @@
 [
     {
-        "role":"Team Leader",
-        "company":"City of Calgary",
-        "summary":"Responsible for the general vision of the web-app, communications with the client (City of Calgary), delegating tasks to team members, implementation of the calculation logic, Google Roads and Directions APIs, as well as connecting the Mongoose DB databases with the web-app. Worked with Heroku, JavaScript, Node.js, GIS, and Ajax under the Scrum Agile framework.",
-        "range":"February 2019 - August 2019"
+        "role":"Boss man",
+        "company":"Current Company LTD",
+        "summary":"Led in development of fast paced software teams.",
+        "range":"February 2016 - Present"
     },
     {
         "role":"Developer",
-        "company":"University of Alberta",
-        "summary":"Responsible for implementing the login and connecting the app to Google Calendar.",
-        "range":"January 2018"
+        "company":"Current Company LTD",
+        "summary":"Expedited the synergies of collaborative agile tooling.",
+        "range":"March 2014 - February 2016"
+    },
+    {
+        "role":"Developer",
+        "company":"Previous Company Inc.",
+        "summary":"Implemented continuous devops pipelines automationing",
+        "range":"February 2013 - March 2014"
     }
 ]
