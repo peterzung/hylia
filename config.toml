@@ -1,23 +1,23 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Eddie Webb"
+title = "Peter Zung"
 theme = "hugo-resume"
 
 [params]
-    firstName = "Eddie"
-    lastName = "Webb"
-    address = "Rollinsford, NH"
-    phone = "1-555-555-1234"
+    firstName = "Peter"
+    lastName = "Zung"
+    address = "Surrey, BC"
+    phone = "(780) 563-1678"
     contactNote = "Dev Tools Engineer"
-    profileImage = "img/TechChat.png"
-    email = "email@domain.com"
-    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
+    profileImage = "img/profile.png"
+    email = "peter@zung.io"
+    description = "Team Lead of the ETA Tool and recent college grad."
     favicon = "images/favicon.ico"
     # what sections
     showSkills = true
     showProjects = true
-    showOpenSource = true
-    showPublications = true
+    showOpenSource = false
+    showPublications = false
     showExperience = true
     showEducation = true
 
@@ -25,26 +25,12 @@ theme = "hugo-resume"
 
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/in/edwardwebb/"
+    link = "https://www.linkedin.com/in/petezung/"
 
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/eddiewebb/"
-
-[[params.handles]]
-    name = "Bitbucket"
-    link = "https://bitbucket.org/eddiewebb/"
-
-[[params.handles]]
-    name = "Stack Overflow"
-    link = "https://stackoverflow.com/users/story/82880"
-    icon = "stack-overflow"
-
-[[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/edwardawebb"
-    icon = "keybase"
+    link = "https://github.com/peterzung/"
 
 [params.google.analytics]
     trackerID = "XX-123446-01"
