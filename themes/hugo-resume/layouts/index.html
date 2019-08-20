@@ -4,8 +4,7 @@
        {{ partial "portfolio/skills.html" . }}
    {{ end }}
    {{ if .Site.Params.showProjects }}
-         {{ partial "portfolio/projects.html" . }}
-      {{ end }}
+        {{ partial "portfolio/projects.html" . }}
    {{ end }}
    {{ if .Site.Params.showOpenSource }}
       {{ with .Site.GetPage "section" "projects/contributions" }}
@@ -31,3 +30,4 @@
          {{ partial "sectionSummary" . }}
       {{ end }}
    {{ end }}
+{{ end }}
