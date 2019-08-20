@@ -1,4 +1,4 @@
-baseURL = "https://www.etatool.com"
+baseURL = ""
 languageCode = "en-us"
 title = "Peter Zung"
 theme = "hugo-resume"
