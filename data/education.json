@@ -1,15 +1,9 @@
 [
     {
-        "school":"Rochester Institute of Technology",
+        "school":"University of Alberta",
         "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
-    },
-    {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "major":"Computing Science",
+        "notes":"Practicum Stream",
+        "range":"2015 - 2019"
     }
 ]
