@@ -1,14 +1,14 @@
 [
     {
-        "role":"Team Leader",
+        "role":"ETA Tool",
         "company":"City of Calgary",
-        "summary":"Responsible for the general vision of the web-app, communications with the client (City of Calgary), delegating tasks to team members, implementation of the calculation logic, Google Roads and Directions APIs, as well as connecting the Mongoose DB databases with the web-app. Worked with Heroku, JavaScript, Node.js, GIS, and Ajax under the Scrum Agile framework.",
+        "summary":"The ETA Tool is a web-app that aims to bring Calgary closer to Vision Zero (Zero casualties due to road traffic) by showing how lower speed limits can save lives while minimally impacting commute lengths. To this end, the web app projects changes in the estimated time of arrival (ETA) for commutes based on changes to speed limits on certain road segments. The tool helps Calgarians to stay better informed on how those speed limit changes would potentially affect their commutes by allowing for Calgarians to input their very own commute starting and end points.",
         "range":"February 2019 - Present"
     },
     {
-        "role":"Developer",
+        "role":"Aug App",
         "company":"University of Alberta",
-        "summary":"Developed the AugApp for Android for the University of Alberta. The AugApp is a calendar app that consolidates the events around campus into one bulletin so that students can have easier access to the happenings around campus. Responsible for implementing the login and connecting the app to Google Calendar.",
+        "summary":"Developed the AugApp for Android for the University of Alberta. The AugApp is a calendar app that consolidates the events around campus into one bulletin so that students can have easier access to the happenings around campus.",
         "range":"January 2018"
     }
 ]
